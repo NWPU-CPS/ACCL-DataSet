@@ -25,6 +25,12 @@ The dataset introduced in the paper *ACCL: A Plug-and-Play Adaptive Confusion-Aw
 │   ├── reference_images.csv     # Reference image metadata
 ```
 
+## Related Project
+
+For more details on the ACCL: A Plug-and-Play Adaptive Confusion-Aware Contrastive Loss for UAV-to-Satellite used in this dataset, check out the ACCL project repository:
+
+🔗 **[ACCL: A Plug-and-Play Adaptive Confusion-Aware Contrastive Loss for UAV-to-Satellite](https://github.com/NWPU-CPS/ACCL)**
+
 ## Citation
 
 If you find this dataset useful in your research, please consider citing our paper:
