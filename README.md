@@ -1,23 +1,39 @@
-# ALTO (Aerial-view Large-scale Terrain-Oriented) dataset
-Repository for the ALTO dataset for deep learning based UAV visual place recognition and localization tasks.
+# HWF (Hollywood Fly) & LVF (LasV Fly) Dataset for UAV Visual Place Recognition
 
+This repository contains the **HWF** and **LVF** datasets, designed for deep learning-based UAV visual place recognition and localization. These datasets provide high-quality UAV imagery for research in **UAV-to-Satellite matching and localization**.
 
-## Competition Dataset (GPR-Competition) for ICRA 2022
-Download the 2022 GPR Competition datasets:
+## Download the Dataset
 
-* The ROUND 1 dataset is available here: [Dropbox](https://www.dropbox.com/sh/q1w5dmghbkut553/AAAOCMaELmfHE4NN5cw06QBba?dl=0)
+The dataset introduced in the paper *ACCL: A Plug-and-Play Adaptive Confusion-Aware Contrastive Loss for UAV-to-Satellite* is available for download:
 
-* The ROUND 2 dataset is available here: [Dropbox](https://www.dropbox.com/scl/fo/saejbf9qanbfq40k8jo18/h?dl=0&rlkey=l19kx1vzzahifv3n5lkg19n84)
+- **[Hollywood Fly Dataset](Google Drive URL)**
+- **[LasV Fly Dataset](Google Drive URL)**
 
+## Directory Structure
 
-## Full Dataset
-Coming soon!
-
-
-## Cite
-!! Paper coming soon on arXiv !! <br />
-Look for: <br />
 ```
-title = "ALTO: A Large-Scale Dataset for UAV Visual Place Recognition and Localization" 
-author = "Ivan Cisneros, Peng Yin, Ji Zhang, Howie Choset, Sebastian Scherer"
+├── Data   
+│   ├── Test/                    # Testing dataset (same structure as Val/)
+│   ├── Train/                   # Training dataset (same structure as Val/)
+│   ├── Val/                     # Validation dataset
+│   │   ├── gt_matches.csv       # Ground truth matching file
+│   │   ├── query.csv            # Query file containing image information
+│   │   ├── query_images/        # Query images directory
+│   │   ├── reference.csv        # Reference metadata file
+│   ├── reference.csv            # Global reference file for all sets
+│   ├── reference_images/        # Directory containing reference images
+│   ├── reference_images.csv     # Reference image metadata
+```
+
+## Citation
+
+If you find this dataset useful in your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{your_citation,
+  author    = {Author Name and Co-authors},
+  title     = {ACCL: A Plug-and-Play Adaptive Confusion-Aware Contrastive Loss for UAV-to-Satellite},
+  booktitle = {Proceedings of ICME},
+  year      = {2025}
+}
 ```
