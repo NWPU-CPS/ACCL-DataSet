@@ -6,8 +6,8 @@ This repository contains the **HWF** and **LVF** datasets, designed for deep lea
 
 The dataset introduced in the paper *ACCL: A Plug-and-Play Adaptive Confusion-Aware Contrastive Loss for UAV-to-Satellite* is available for download:
 
-- **[Hollywood Fly Dataset](Google Drive URL)**
-- **[LasV Fly Dataset](Google Drive URL)**
+- **[Hollywood Fly Dataset](https://drive.google.com/file/d/15P8ErTnN3L21IaSwRWFiYwu4vD852vS5/view?usp=drive_link)**
+- **[LasV Fly Dataset](https://drive.google.com/file/d/1QOjfgSr9Ws0uyepzwCTwxdMBOSHpDEkj/view?usp=sharing)**
 
 ## Directory Structure
 
